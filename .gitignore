@@ -1,0 +1,9 @@
+# File upload pengguna tidak ikut di-commit (folder tetap ada via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
