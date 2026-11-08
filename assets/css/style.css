@@ -1,0 +1,77 @@
+:root {
+    --brand: #4f46e5;
+    --brand-dark: #3730a3;
+    --bg: #ffffff;
+}
+
+body {
+    background: var(--bg);
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-brand-custom {
+    background: linear-gradient(135deg, var(--brand), #7c3aed);
+}
+
+/* ---------- Halaman login ---------- */
+.login-wrapper {
+    min-height: 100vh;
+     background:
+        url('../img/bg_login.jpg') center / cover no-repeat fixed;
+}
+.login-card {
+    border: 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .25);
+    background: rgba(255, 255, 255, 0.179);   /* makin kecil angkanya, makin transparan */
+    backdrop-filter: blur(3px);             /* efek kaca buram */
+    -webkit-backdrop-filter: blur(8px);
+}
+.login-icon {
+    width: 72px; height: 72px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: rgba(79, 70, 229, .1);
+    color: var(--brand);
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+/* ---------- Kartu statistik ---------- */
+.stat-card {
+    border: 0;
+    border-radius: 1rem;
+    color: #fffffff8;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+    transition: transform .2s;
+}
+.stat-card:hover { transform: translateY(-3px); }
+.stat-1 { background: linear-gradient(135deg, #4f46e5, #818cf8); }
+.stat-2 { background: linear-gradient(135deg, #059669, #34d399); }
+.stat-3 { background: linear-gradient(135deg, #dc2626, #f87171); }
+.stat-card .icon { font-size: 2.4rem; opacity: .85; }
+
+/* ---------- Tabel ---------- */
+.card-table { border: 0; border-radius: 1rem; box-shadow: 0 8px 20px rgba(0, 0, 0, .06); }
+.table thead th { background: #f6f8fff7; color: var(--brand-dark); border: 0; white-space: nowrap; }
+.cover-thumb {
+    width: 52px; height: 72px; object-fit: cover;
+    border-radius: .4rem; box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+}
+.cover-placeholder {
+    width: 52px; height: 72px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: #e5e7eb; color: #9ca3af; border-radius: .4rem; font-size: 1.4rem;
+}
+
+/* ---------- Form ---------- */
+.form-card { border: 0; border-radius: 1rem; box-shadow: 0 8px 20px rgba(0, 0, 0, .06); }
+.preview-box {
+    width: 150px; height: 210px; border: 2px dashed #c7d2fe; border-radius: .75rem;
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden; background: #fafaff; color: #a5b4fc; font-size: 2.5rem;
+}
+.preview-box img { width: 100%; height: 100%; object-fit: cover; }
+
+.btn-brand { background: var(--brand); border-color: var(--brand); color: #fff; }
+.btn-brand:hover { background: var(--brand-dark); border-color: var(--brand-dark); color: #fff; }
