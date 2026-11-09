@@ -89,12 +89,12 @@ tugas-project_library/
 
 | Halaman | Screenshot |
 |---|---|
-| Database MySQL | ![database](../tugas-project_library/assets/img/database.png) |
-| Login | ![Login](../tugas-project_library/assets/img/halaman%20login.png) |
-| Dashboard (Read) | ![Dashboard](../tugas-project_library/assets/img/dashboard.png) |
-| Tambah Buku (Create) | ![Tambah](../tugas-project_library/assets/img/halaman%20tambah.png) |
-| Edit Buku (Update) | ![Edit](../tugas-project_library/assets/img/edit.png) |
-| Konfirmasi Hapus (Delete) | ![Hapus](../tugas-project_library/assets/img/hapus%20buku.png) |
-| Pencarian & Filter | ![Cari](../tugas-project_library/assets/img/filter%20buku.png)
+| Database MySQL | ![database](assets/img/database.png) |
+| Login | ![Login](assets/img/halaman%20login.png) |
+| Dashboard (Read) | ![Dashboard](assets/img/dashboard.png) |
+| Tambah Buku (Create) | ![Tambah](assets/img/halaman%20tambah.png) |
+| Edit Buku (Update) | ![Edit](assets/img/edit.png) |
+| Konfirmasi Hapus (Delete) | ![Hapus](assets/img/hapus%20buku.png) |
+| Pencarian & Filter | ![Cari](assets/img/filter%20buku.png)
 ## 👤 Pembuat
 `<Nama>` — `<NIM>`
