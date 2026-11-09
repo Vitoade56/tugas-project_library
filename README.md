@@ -4,7 +4,7 @@ Aplikasi web **Sistem Informasi Perpustakaan Digital Mini** untuk mengelola data
 Dibuat dengan **PHP Native** (tanpa framework), **MySQL (mysqli)**, **Bootstrap 5**, dan **SweetAlert2**.
 
 > Tugas Terstruktur — Mata Kuliah **Pemrograman Web** — Program Studi **Sistem Informasi**
-> Nama: `<isi nama>` | NIM: `<isi NIM>` | Kelas: `<2C>`
+> Nama: `<Vito Ade Chrisnanta>` | NIM: `<2513020056>` | Kelas: `<2C>`
 
 - 🎥 **Video Demo (YouTube):** `<tempel link video di sini>`
 
@@ -27,27 +27,27 @@ Dibuat dengan **PHP Native** (tanpa framework), **MySQL (mysqli)**, **Bootstrap 
 ```
 tugas-project_library/
 ├── config/
-│   ├── koneksi.php          # Koneksi database MySQL (mysqli)
-│   └── helper.php           # Session, flash, CSRF, label status, validasi & upload file
+│   ├── koneksi.php          
+│   └── helper.php           
 ├── includes/
-│   ├── header.php           # Navbar + flash message (halaman setelah login)
-│   ├── footer.php           # Script JS & footer
-│   └── form_buku.php        # Field form bersama (tambah & edit)
+│   ├── header.php           
+│   ├── footer.php           
+│   └── form_buku.php        
 ├── assets/
 │   ├── css/style.css
     ├── img
-│   └── js/app.js            # Konfirmasi hapus, preview gambar, toggle password
-├── uploads/                 # Folder penampung file sampul buku
-├── index.php                # Halaman Login
-├── proses_login.php         # Verifikasi autentikasi & Session/Cookie
-├── logout.php               # Hapus Session & Cookie
-├── dashboard.php            # Tampil Data (Read) & akses menu
-├── tambah_buku.php          # Form Tambah Data
-├── proses_tambah.php        # Query Insert & upload file
-├── edit_buku.php            # Form Edit Data
-├── proses_edit.php          # Query Update & penggantian file
-├── hapus_buku.php           # Query Delete & unlink file gambar
-└── db_perpustakaan.sql      # Ekspor database
+│   └── js/app.js           
+├── uploads/                 
+├── index.php                
+├── proses_login.php         
+├── logout.php               
+├── dashboard.php            
+├── tambah_buku.php          
+├── proses_tambah.php       
+├── edit_buku.php           
+├── proses_edit.php          
+├── hapus_buku.php           
+└── db_perpustakaan.sql      
 ```
 
 ## ⚙️ Cara Menjalankan
@@ -60,7 +60,7 @@ tugas-project_library/
 3. Buka **phpMyAdmin** → **Import** → pilih `db_perpustakaan.sql`. Database yang dipakai: `data_perpus` (tabel `tb_buku` dan `tb_user`).
 4. Sesuaikan kredensial di `config/koneksi.php` bila perlu (default: user `root`, password kosong).
 5. Pastikan folder `uploads/` dapat ditulis (Linux/Mac: `chmod 755 uploads`).
-6. Buka `http://localhost/project_perpustakaan/`.
+6. Buka `http://localhost/tugas-project_library/`.
 
 **Akun demo:** username `admin` — password `admin123`
 
@@ -87,18 +87,14 @@ tugas-project_library/
 
 ## 📸 Screenshot
 
-> Ganti placeholder di bawah dengan screenshot asli (simpan di folder `screenshots/`).
-
 | Halaman | Screenshot |
 |---|---|
-| Login | ![Login](screenshots/01-login.png) |
-| Login gagal / validasi | ![Login Gagal](screenshots/02-login-gagal.png) |
-| Dashboard (Read) | ![Dashboard](screenshots/03-dashboard.png) |
-| Tambah Buku (Create) | ![Tambah](screenshots/04-tambah.png) |
-| Validasi Upload (file > 2MB / bukan gambar) | ![Validasi Upload](screenshots/05-validasi-upload.png) |
-| Edit Buku (Update) | ![Edit](screenshots/06-edit.png) |
-| Konfirmasi Hapus (Delete) | ![Hapus](screenshots/07-hapus.png) |
-| Pencarian & Filter | ![Cari](screenshots/08-cari.png) |
-
+| Database MySQL | ![database](../tugas-project_library/assets/img/database.png) |
+| Login | ![Login](../tugas-project_library/assets/img/halaman%20login.png) |
+| Dashboard (Read) | ![Dashboard](../tugas-project_library/assets/img/dashboard.png) |
+| Tambah Buku (Create) | ![Tambah](../tugas-project_library/assets/img/halaman%20tambah.png) |
+| Edit Buku (Update) | ![Edit](../tugas-project_library/assets/img/edit.png) |
+| Konfirmasi Hapus (Delete) | ![Hapus](../tugas-project_library/assets/img/hapus%20buku.png) |
+| Pencarian & Filter | ![Cari](../tugas-project_library/assets/img/filter%20buku.png)
 ## 👤 Pembuat
 `<Nama>` — `<NIM>`
