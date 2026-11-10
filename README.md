@@ -6,7 +6,7 @@ Dibuat dengan **PHP Native** (tanpa framework), **MySQL (mysqli)**, **Bootstrap 
 > Tugas Terstruktur — Mata Kuliah **Pemrograman Web** — Program Studi **Sistem Informasi**
 > Nama: `<Vito Ade Chrisnanta>` | NIM: `<2513020056>` | Kelas: `<2C>`
 
-- 🎥 **Video Demo (YouTube):** `<tempel link video di sini>`
+- 🎥 **Video Demo (YouTube):** `https://youtu.be/hDTHFSfdsks`
 
 ---
 
@@ -96,5 +96,3 @@ tugas-project_library/
 | Edit Buku (Update) | ![Edit](assets/img/edit.png) |
 | Konfirmasi Hapus (Delete) | ![Hapus](assets/img/hapus%20buku.png) |
 | Pencarian & Filter | ![Cari](assets/img/filter%20buku.png)
-## 👤 Pembuat
-`<Nama>` — `<NIM>`
