@@ -1,8 +1,8 @@
 <?php
-/**
- * Koneksi ke database MySQL (mysqli)
- * Sesuaikan kredensial dengan environment XAMPP/Laragon Anda.
- */
+
+// Koneksi ke database MySQL (mysqli)
+// Sesuaikan kredensial dengan environment XAMPP/Laragon.
+
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
